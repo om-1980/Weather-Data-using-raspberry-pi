@@ -14,7 +14,7 @@ A Raspberry Pi weather station is a DIY project that combines the affordability 
   ```
     sudo npm install -g --unsafe-perm node-red
   ```
-  Check where node-red is install or not by this command:
+  Check where node-red is installed or not by this command:
   ```
     node-red
   ```
@@ -23,14 +23,19 @@ A Raspberry Pi weather station is a DIY project that combines the affordability 
     node-red-start
   ```
   Now, open node-red and go to Manage Palette > Install section and install [node-red-contrib-dht-sensor](https://flows.nodered.org/node/node-red-contrib-dht-sensor) and [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard). 
-- Code Implementation: Go to import section and import the code.
-- Output: Go to browser and paste this url and you see a page where a graph and gauge for humidity and temperature.
+- Code Implementation: Go to the import section and import the code.
+- Output: Go to the browser and paste this URL and you will see a page with a graph and gauge for humidity and temperature.
   ```
     http://127.0.0.1:1880/weather-station
+  ```
+  And for only checking sensor data got to
+  ```
+    http://127.0.0.1:1880/sensorReadings
   ```
 # Circuit Diagram
 ![circuit ](https://github.com/om-1980/Weather-Data-using-raspberry-pi/assets/111452597/b86ddf1d-a073-4b7d-aa39-fb36f942de8c)
 
 # Output window
-
+![output](https://github.com/om-1980/Weather-Data-using-raspberry-pi/assets/111452597/b63516d4-472e-4cb0-92a0-37cab896a183)
+![Output1](https://github.com/om-1980/Weather-Data-using-raspberry-pi/assets/111452597/0751dab9-3aa5-4d60-bb35-8fa6b6c9833a)
 
