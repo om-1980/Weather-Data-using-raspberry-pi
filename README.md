@@ -14,15 +14,15 @@ A Raspberry Pi weather station is a DIY project that combines the affordability 
   ```
     sudo npm install -g --unsafe-perm node-red
   ```
-Check where node-red is install or not by this command:
+  Check where node-red is install or not by this command:
   ```
     node-red
   ```
-Or you can start with this command also:
+  Or you can start with this command also:
   ```
     node-red-start
   ```
-Now, open node-red and go to Manage Palette > Install section and install [node-red-contrib-dht-sensor](https://flows.nodered.org/node/node-red-contrib-dht-sensor) and [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard). 
+  Now, open node-red and go to Manage Palette > Install section and install [node-red-contrib-dht-sensor](https://flows.nodered.org/node/node-red-contrib-dht-sensor) and [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard). 
 - Code Implementation: Go to import section and import the code.
 - Output: Go to browser and paste this url and you see a page where a graph and gauge for humidity and temperature.
   ```
