@@ -28,4 +28,9 @@ A Raspberry Pi weather station is a DIY project that combines the affordability 
   ```
     http://127.0.0.1:1880/weather-station
   ```
-   
+# Circuit Diagram
+![circuit ](https://github.com/om-1980/Weather-Data-using-raspberry-pi/assets/111452597/b86ddf1d-a073-4b7d-aa39-fb36f942de8c)
+
+# Output window
+
+
